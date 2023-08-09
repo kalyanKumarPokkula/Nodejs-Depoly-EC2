@@ -12,6 +12,11 @@ app.use("/me" , (req ,res ) => {
 app.get('/avi' , (req ,res) => {
   res.send('avi is my best friend')
 })
+
+app.get('kee' , (req ,res) => {
+  res.send("kee is friend" )
+})
+
 app.listen(PORT, () => {
   console.log(`Server started at port ${PORT}`);
 });
