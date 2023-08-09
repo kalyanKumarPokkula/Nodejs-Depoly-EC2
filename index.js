@@ -13,8 +13,16 @@ app.get('/avi' , (req ,res) => {
   res.send('avi is my best friend')
 })
 
-app.get('kee' , (req ,res) => {
+app.get('/kee' , (req ,res) => {
   res.send("kee is friend" )
+})
+
+app.get('/cat' , (req ,res) => {
+  res.send("meow")
+})
+
+app.get('/dog' , (req ,res) => {
+  res.send('bow wow')
 })
 
 app.listen(PORT, () => {
